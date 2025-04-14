@@ -48,7 +48,7 @@ function autoSlides() {
     }
     slides[slideIndex-1].style.display = "block";
     dots[slideIndex-1].className += " active";
-    setTimeout(autoSlides, 2000);
+    setTimeout(autoSlides, 5000);
 }
 
 const next = document.querySelector('.next');
